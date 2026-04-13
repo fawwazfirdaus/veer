@@ -3,23 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		XX4CDD7BDA9527231FD154XX /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = XX0182E36293E7A95A811DXX /* Assets.xcassets */; };
-		XX662F9C14209B52AFAB46XX /* VeerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = XX7B152001BCADA19509EEXX /* VeerApp.swift */; };
-		XX7A2FC82B37DB41F5F215XX /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = XX1057DB72538000DD5043XX /* Item.swift */; };
-		XXAD25BC19689D5035DE9BXX /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = XXE274B35F27E365B849C0XX /* ContentView.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
-		XX0182E36293E7A95A811DXX /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		XX1057DB72538000DD5043XX /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
-		XX7B152001BCADA19509EEXX /* VeerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeerApp.swift; sourceTree = "<group>"; };
-		XXE274B35F27E365B849C0XX /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		XXFDC2EB87F43B72E5AA8DXX /* Veer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Veer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		64A956692F8D7FF700959522 /* Veer */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Veer; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		XX074B8811C1CF8E8A3D74XX /* Frameworks */ = {
@@ -35,20 +28,9 @@
 		0000000000000000MAINGRP = {
 			isa = PBXGroup;
 			children = (
-				XX922A52C185873C8A8E32XX /* Veer */,
+				64A956692F8D7FF700959522 /* Veer */,
 				XXE87C8832ADB06B2840E0XX /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		XX922A52C185873C8A8E32XX /* Veer */ = {
-			isa = PBXGroup;
-			children = (
-				XX7B152001BCADA19509EEXX /* VeerApp.swift */,
-				XXE274B35F27E365B849C0XX /* ContentView.swift */,
-				XX1057DB72538000DD5043XX /* Item.swift */,
-				XX0182E36293E7A95A811DXX /* Assets.xcassets */,
-			);
-			path = Veer;
 			sourceTree = "<group>";
 		};
 		XXE87C8832ADB06B2840E0XX /* Products */ = {
@@ -73,6 +55,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				64A956692F8D7FF700959522 /* Veer */,
 			);
 			name = Veer;
 			productName = Veer;
@@ -117,7 +102,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				XX4CDD7BDA9527231FD154XX /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,9 +112,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				XX662F9C14209B52AFAB46XX /* VeerApp.swift in Sources */,
-				XXAD25BC19689D5035DE9BXX /* ContentView.swift in Sources */,
-				XX7A2FC82B37DB41F5F215XX /* Item.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +133,10 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fawwazfirdaus.veer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -238,7 +222,10 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fawwazfirdaus.veer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -318,13 +305,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0000000000000000CFGLST /* Build configuration list for [unknown] */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		XX701BFD5DD604D5AEFD8EXX /* Build configuration list for PBXNativeTarget "Veer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
